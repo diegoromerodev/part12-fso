@@ -1,0 +1,6 @@
+PS C:\Users\diego> docker container run -it ubuntu bash
+root@e75e9fde524e:/# mkdir usr/src/app
+root@e75e9fde524e:/# touch usr/src/app/index.js
+root@e75e9fde524e:/# exit
+exit
+PS C:\Users\diego>

@@ -1,0 +1,5 @@
+ docker exec -it relaxed_yonath bash                     
+root@5995a1b09d7a:/# mkdir usr/src/app                                                      
+root@5995a1b09d7a:/# cd usr/src/app/                                                                      
+root@5995a1b09d7a:/usr/src/app# touch index.js                                                            
+root@5995a1b09d7a:/usr/src/app# nano index.js
