@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  app:
+    image: phonebook-frontend
+    build:
+      context: ./phonebook/
+      dockerfile: ./dev.Dockerfile
+    volumes:
+      - ./phonebook/:/usr/src/app/
+    ports:
+      - 3001:3000
+    container_name: phonebook-front
+  server:
+    image: phonebook-backend
+    build:
+      context: ./phonebook-backend/
+      dockerfile: ./dev.Dockerfile
+    volumes:
+      - ./phonebook-back/:/usr/src/app/
+    ports:
+      - 6000:3001
+    container_name: phonebook-backend

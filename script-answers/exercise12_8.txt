@@ -1,0 +1,4 @@
+docker-compose -f docker-compose.dev.yaml up
+db.todos.find({})
+db.todos.insertOne({text: "increase the number of tools in my toolbelt", done: false})
+db.todos.find({})

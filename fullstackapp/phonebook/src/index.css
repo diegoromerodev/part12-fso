@@ -1,0 +1,21 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.success {
+    color: green;
+    font-weight: bolder;
+    padding: 10px;
+    border: 3px solid green;
+    background-color: #cacaca;
+    padding: 10px;
+}
+
+.warning {
+    color: red;
+    font-weight: bolder;
+    padding: 10px;
+    border: 3px solid red;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
